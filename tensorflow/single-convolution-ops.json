@@ -2,1569 +2,981 @@
     {
         "description": "TensorFlow AlexNet Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x224x224x3xf32-f-11x11x3x96xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 224 224 3 -filter-shape 11 11 3 96 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow AlexNet Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x112x112x96xf32-f-5x5x96x256xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 112 112 96 -filter-shape 5 5 96 256 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow AlexNet Convolution - 3",
         "name": "TensorFlow-conv2d_i-1x58x58x256xf32-f-3x3x256x512xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 58 58 256 -filter-shape 3 3 256 512 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow AlexNet Convolution - 4",
         "name": "TensorFlow-conv2d_i-1x31x31x512xf32-f-3x3x512x1024xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 31 31 512 -filter-shape 3 3 512 1024 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow AlexNet Convolution - 5",
         "name": "TensorFlow-conv2d_i-1x33x33x1024xf32-f-3x3x1024x1024xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 33 33 1024 -filter-shape 3 3 1024 1024 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x230x230x3xf32-f-7x7x3x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 230 230 3 -filter-shape 7 7 3 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x56x56x64xf32-f-1x1x64x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 64 -filter-shape 1 1 64 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 3, 5, 7, 9, 11, 13",
         "name": "TensorFlow-conv2d_i-1x56x56x128xf32-f-3x3x128x32xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 128 -filter-shape 3 3 128 32 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 4",
         "name": "TensorFlow-conv2d_i-1x56x56x96xf32-f-1x1x96x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 96 -filter-shape 1 1 96 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 6",
         "name": "TensorFlow-conv2d_i-1x56x56x128xf32-f-1x1x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 128 -filter-shape 1 1 128 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 8",
         "name": "TensorFlow-conv2d_i-1x56x56x160xf32-f-1x1x160x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 160 -filter-shape 1 1 160 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 10",
         "name": "TensorFlow-conv2d_i-1x56x56x192xf32-f-1x1x192x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 192 -filter-shape 1 1 192 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 12",
         "name": "TensorFlow-conv2d_i-1x56x56x224xf32-f-1x1x224x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 224 -filter-shape 1 1 224 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 14",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-1x1x256x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 1 1 256 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 15",
         "name": "TensorFlow-conv2d_i-1x28x28x128xf32-f-1x1x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 128 -filter-shape 1 1 128 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38",
         "name": "TensorFlow-conv2d_i-1x28x28x128xf32-f-3x3x128x32xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 128 -filter-shape 3 3 128 32 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 17",
         "name": "TensorFlow-conv2d_i-1x28x28x160xf32-f-1x1x160x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 160 -filter-shape 1 1 160 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 19",
         "name": "TensorFlow-conv2d_i-1x28x28x192xf32-f-1x1x192x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 192 -filter-shape 1 1 192 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 21",
         "name": "TensorFlow-conv2d_i-1x28x28x224xf32-f-1x1x224x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 224 -filter-shape 1 1 224 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 23",
         "name": "TensorFlow-conv2d_i-1x28x28x256xf32-f-1x1x256x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 256 -filter-shape 1 1 256 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 25",
         "name": "TensorFlow-conv2d_i-1x28x28x288xf32-f-1x1x288x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 288 -filter-shape 1 1 288 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 27",
         "name": "TensorFlow-conv2d_i-1x28x28x320xf32-f-1x1x320x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 320 -filter-shape 1 1 320 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 29",
         "name": "TensorFlow-conv2d_i-1x28x28x352xf32-f-1x1x352x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 352 -filter-shape 1 1 352 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 31",
         "name": "TensorFlow-conv2d_i-1x28x28x384xf32-f-1x1x384x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 384 -filter-shape 1 1 384 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 33",
         "name": "TensorFlow-conv2d_i-1x28x28x416xf32-f-1x1x416x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 416 -filter-shape 1 1 416 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 35",
         "name": "TensorFlow-conv2d_i-1x28x28x448xf32-f-1x1x448x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 448 -filter-shape 1 1 448 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 37",
         "name": "TensorFlow-conv2d_i-1x28x28x480xf32-f-1x1x480x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 480 -filter-shape 1 1 480 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 39",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-1x1x512x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 1 1 512 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 40",
         "name": "TensorFlow-conv2d_i-1x14x14x256xf32-f-1x1x256x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 256 -filter-shape 1 1 256 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87",
         "name": "TensorFlow-conv2d_i-1x14x14x128xf32-f-3x3x128x32xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 128 -filter-shape 3 3 128 32 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 42",
         "name": "TensorFlow-conv2d_i-1x14x14x288xf32-f-1x1x288x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 288 -filter-shape 1 1 288 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 44",
         "name": "TensorFlow-conv2d_i-1x14x14x320xf32-f-1x1x320x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 320 -filter-shape 1 1 320 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 46",
         "name": "TensorFlow-conv2d_i-1x14x14x352xf32-f-1x1x352x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 352 -filter-shape 1 1 352 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 48",
         "name": "TensorFlow-conv2d_i-1x14x14x384xf32-f-1x1x384x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 384 -filter-shape 1 1 384 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 50",
         "name": "TensorFlow-conv2d_i-1x14x14x416xf32-f-1x1x416x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 416 -filter-shape 1 1 416 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 52",
         "name": "TensorFlow-conv2d_i-1x14x14x448xf32-f-1x1x448x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 448 -filter-shape 1 1 448 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 54",
         "name": "TensorFlow-conv2d_i-1x14x14x480xf32-f-1x1x480x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 480 -filter-shape 1 1 480 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 56",
         "name": "TensorFlow-conv2d_i-1x14x14x512xf32-f-1x1x512x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 512 -filter-shape 1 1 512 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 58",
         "name": "TensorFlow-conv2d_i-1x14x14x544xf32-f-1x1x544x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 544 -filter-shape 1 1 544 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 60",
         "name": "TensorFlow-conv2d_i-1x14x14x576xf32-f-1x1x576x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 576 -filter-shape 1 1 576 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 62",
         "name": "TensorFlow-conv2d_i-1x14x14x608xf32-f-1x1x608x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 608 -filter-shape 1 1 608 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 64",
         "name": "TensorFlow-conv2d_i-1x14x14x640xf32-f-1x1x640x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 640 -filter-shape 1 1 640 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 66",
         "name": "TensorFlow-conv2d_i-1x14x14x672xf32-f-1x1x672x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 672 -filter-shape 1 1 672 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 68",
         "name": "TensorFlow-conv2d_i-1x14x14x704xf32-f-1x1x704x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 704 -filter-shape 1 1 704 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 70",
         "name": "TensorFlow-conv2d_i-1x14x14x736xf32-f-1x1x736x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 736 -filter-shape 1 1 736 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 72",
         "name": "TensorFlow-conv2d_i-1x14x14x768xf32-f-1x1x768x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 768 -filter-shape 1 1 768 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 74",
         "name": "TensorFlow-conv2d_i-1x14x14x800xf32-f-1x1x800x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 800 -filter-shape 1 1 800 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 76",
         "name": "TensorFlow-conv2d_i-1x14x14x832xf32-f-1x1x832x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 832 -filter-shape 1 1 832 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 78",
         "name": "TensorFlow-conv2d_i-1x14x14x864xf32-f-1x1x864x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 864 -filter-shape 1 1 864 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 80",
         "name": "TensorFlow-conv2d_i-1x14x14x896xf32-f-1x1x896x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 896 -filter-shape 1 1 896 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 82",
         "name": "TensorFlow-conv2d_i-1x14x14x928xf32-f-1x1x928x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 928 -filter-shape 1 1 928 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 84",
         "name": "TensorFlow-conv2d_i-1x14x14x960xf32-f-1x1x960x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 960 -filter-shape 1 1 960 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 86",
         "name": "TensorFlow-conv2d_i-1x14x14x992xf32-f-1x1x992x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 992 -filter-shape 1 1 992 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 88",
         "name": "TensorFlow-conv2d_i-1x14x14x1024xf32-f-1x1x1024x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 1024 -filter-shape 1 1 1024 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 89",
         "name": "TensorFlow-conv2d_i-1x7x7x512xf32-f-1x1x512x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 512 -filter-shape 1 1 512 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120",
         "name": "TensorFlow-conv2d_i-1x7x7x128xf32-f-3x3x128x32xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 128 -filter-shape 3 3 128 32 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 91",
         "name": "TensorFlow-conv2d_i-1x7x7x544xf32-f-1x1x544x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 544 -filter-shape 1 1 544 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 93",
         "name": "TensorFlow-conv2d_i-1x7x7x576xf32-f-1x1x576x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 576 -filter-shape 1 1 576 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 95",
         "name": "TensorFlow-conv2d_i-1x7x7x608xf32-f-1x1x608x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 608 -filter-shape 1 1 608 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 97",
         "name": "TensorFlow-conv2d_i-1x7x7x640xf32-f-1x1x640x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 640 -filter-shape 1 1 640 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 99",
         "name": "TensorFlow-conv2d_i-1x7x7x672xf32-f-1x1x672x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 672 -filter-shape 1 1 672 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 101",
         "name": "TensorFlow-conv2d_i-1x7x7x704xf32-f-1x1x704x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 704 -filter-shape 1 1 704 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 103",
         "name": "TensorFlow-conv2d_i-1x7x7x736xf32-f-1x1x736x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 736 -filter-shape 1 1 736 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 105",
         "name": "TensorFlow-conv2d_i-1x7x7x768xf32-f-1x1x768x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 768 -filter-shape 1 1 768 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 107",
         "name": "TensorFlow-conv2d_i-1x7x7x800xf32-f-1x1x800x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 800 -filter-shape 1 1 800 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 109",
         "name": "TensorFlow-conv2d_i-1x7x7x832xf32-f-1x1x832x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 832 -filter-shape 1 1 832 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 111",
         "name": "TensorFlow-conv2d_i-1x7x7x864xf32-f-1x1x864x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 864 -filter-shape 1 1 864 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 113",
         "name": "TensorFlow-conv2d_i-1x7x7x896xf32-f-1x1x896x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 896 -filter-shape 1 1 896 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 115",
         "name": "TensorFlow-conv2d_i-1x7x7x928xf32-f-1x1x928x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 928 -filter-shape 1 1 928 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 117",
         "name": "TensorFlow-conv2d_i-1x7x7x960xf32-f-1x1x960x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 960 -filter-shape 1 1 960 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow DenseNet Convolution - 119",
         "name": "TensorFlow-conv2d_i-1x7x7x992xf32-f-1x1x992x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 992 -filter-shape 1 1 992 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x299x299x3xf32-f-3x3x3x32xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 299 299 3 -filter-shape 3 3 3 32 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x149x149x32xf32-f-3x3x32x32xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 149 149 32 -filter-shape 3 3 32 32 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 3",
         "name": "TensorFlow-conv2d_i-1x147x147x32xf32-f-3x3x32x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 147 147 32 -filter-shape 3 3 32 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 4",
         "name": "TensorFlow-conv2d_i-1x73x73x64xf32-f-1x1x64x80xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 73 73 64 -filter-shape 1 1 64 80 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 5",
         "name": "TensorFlow-conv2d_i-1x73x73x80xf32-f-3x3x80x192xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 73 73 80 -filter-shape 3 3 80 192 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 6",
         "name": "TensorFlow-conv2d_i-1x35x35x192xf32-f-1x1x192x32xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 192 -filter-shape 1 1 192 32 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 7, 10",
         "name": "TensorFlow-conv2d_i-1x35x35x192xf32-f-1x1x192x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 192 -filter-shape 1 1 192 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 8",
         "name": "TensorFlow-conv2d_i-1x35x35x192xf32-f-1x1x192x48xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 192 -filter-shape 1 1 192 48 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 9, 16, 23",
         "name": "TensorFlow-conv2d_i-1x35x35x48xf32-f-5x5x48x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 48 -filter-shape 5 5 48 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 11, 18, 25, 29",
         "name": "TensorFlow-conv2d_i-1x35x35x64xf32-f-3x3x64x96xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 64 -filter-shape 3 3 64 96 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 12, 19, 26",
         "name": "TensorFlow-conv2d_i-1x35x35x96xf32-f-3x3x96x96xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 96 -filter-shape 3 3 96 96 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 13, 14, 17",
         "name": "TensorFlow-conv2d_i-1x35x35x256xf32-f-1x1x256x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 256 -filter-shape 1 1 256 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 15",
         "name": "TensorFlow-conv2d_i-1x35x35x256xf32-f-1x1x256x48xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 256 -filter-shape 1 1 256 48 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 20, 21, 24, 28",
         "name": "TensorFlow-conv2d_i-1x35x35x288xf32-f-1x1x288x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 288 -filter-shape 1 1 288 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 22",
         "name": "TensorFlow-conv2d_i-1x35x35x288xf32-f-1x1x288x48xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 288 -filter-shape 1 1 288 48 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 27",
         "name": "TensorFlow-conv2d_i-1x35x35x288xf32-f-3x3x288x384xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 288 -filter-shape 3 3 288 384 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 30",
         "name": "TensorFlow-conv2d_i-1x35x35x96xf32-f-3x3x96x96xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 35 35 96 -filter-shape 3 3 96 96 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 31, 32, 41, 42, 51, 52, 61, 62, 63, 66, 71, 73",
         "name": "TensorFlow-conv2d_i-1x17x17x768xf32-f-1x1x768x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 768 -filter-shape 1 1 768 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 33, 36",
         "name": "TensorFlow-conv2d_i-1x17x17x768xf32-f-1x1x768x128xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 768 -filter-shape 1 1 768 128 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 34, 38",
         "name": "TensorFlow-conv2d_i-1x17x17x128xf32-f-1x7x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 128 -filter-shape 1 7 128 128 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 35",
         "name": "TensorFlow-conv2d_i-1x17x17x128xf32-f-7x1x128x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 128 -filter-shape 7 1 128 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 37, 39",
         "name": "TensorFlow-conv2d_i-1x17x17x128xf32-f-7x1x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 128 -filter-shape 7 1 128 128 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 40",
         "name": "TensorFlow-conv2d_i-1x17x17x128xf32-f-1x7x128x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 128 -filter-shape 1 7 128 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 43, 46, 53, 56",
         "name": "TensorFlow-conv2d_i-1x17x17x768xf32-f-1x1x768x160xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 768 -filter-shape 1 1 768 160 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 44, 48, 54, 58",
         "name": "TensorFlow-conv2d_i-1x17x17x160xf32-f-1x7x160x160xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 160 -filter-shape 1 7 160 160 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 45, 55",
         "name": "TensorFlow-conv2d_i-1x17x17x160xf32-f-7x1x160x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 160 -filter-shape 7 1 160 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 47, 49, 57, 59",
         "name": "TensorFlow-conv2d_i-1x17x17x160xf32-f-7x1x160x160xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 160 -filter-shape 7 1 160 160 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 50, 60",
         "name": "TensorFlow-conv2d_i-1x17x17x160xf32-f-1x7x160x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 160 -filter-shape 1 7 160 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 64, 68, 70, 74",
         "name": "TensorFlow-conv2d_i-1x17x17x192xf32-f-1x7x192x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 192 -filter-shape 1 7 192 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 65, 67, 69, 75",
         "name": "TensorFlow-conv2d_i-1x17x17x192xf32-f-7x1x192x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 192 -filter-shape 7 1 192 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 72",
         "name": "TensorFlow-conv2d_i-1x17x17x192xf32-f-3x3x192x320xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 192 -filter-shape 3 3 192 320 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 76",
         "name": "TensorFlow-conv2d_i-1x17x17x192xf32-f-3x3x192x192xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 17 17 192 -filter-shape 3 3 192 192 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 77",
         "name": "TensorFlow-conv2d_i-1x8x8x1280xf32-f-1x1x1280x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 1280 -filter-shape 1 1 1280 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 78",
         "name": "TensorFlow-conv2d_i-1x8x8x1280xf32-f-1x1x1280x320xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 1280 -filter-shape 1 1 1280 320 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 79",
         "name": "TensorFlow-conv2d_i-1x8x8x1280xf32-f-1x1x1280x384xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 1280 -filter-shape 1 1 1280 384 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 80, 84, 89, 93",
         "name": "TensorFlow-conv2d_i-1x8x8x384xf32-f-1x3x384x384xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 384 -filter-shape 1 3 384 384 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 81, 85, 90, 94",
         "name": "TensorFlow-conv2d_i-1x8x8x384xf32-f-3x1x384x384xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 384 -filter-shape 3 1 384 384 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 82",
         "name": "TensorFlow-conv2d_i-1x8x8x1280xf32-f-1x1x1280x448xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 1280 -filter-shape 1 1 1280 448 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 83, 92",
         "name": "TensorFlow-conv2d_i-1x8x8x448xf32-f-3x3x448x384xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 448 -filter-shape 3 3 448 384 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 86",
         "name": "TensorFlow-conv2d_i-1x8x8x2048xf32-f-1x1x2048x192xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 2048 -filter-shape 1 1 2048 192 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 87",
         "name": "TensorFlow-conv2d_i-1x8x8x2048xf32-f-1x1x2048x320xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 2048 -filter-shape 1 1 2048 320 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 88",
         "name": "TensorFlow-conv2d_i-1x8x8x2048xf32-f-1x1x2048x384xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 2048 -filter-shape 1 1 2048 384 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow Inception Convolution - 91",
         "name": "TensorFlow-conv2d_i-1x8x8x2048xf32-f-1x1x2048x448xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 8 8 2048 -filter-shape 1 1 2048 448 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x331x331x3xf32-f-3x3x3x96xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 331 331 3 -filter-shape 3 3 3 96 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x165x165x96xf32-f-1x1x96x42xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 165 165 96 -filter-shape 1 1 96 42 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 3, 4, 6, 7, 8, 10, 12",
         "name": "TensorFlow-conv2d_i-1x83x83x42xf32-f-1x1x42x42xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 83 83 42 -filter-shape 1 1 42 42 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 5, 9, 11",
         "name": "TensorFlow-conv2d_i-1x83x83x96xf32-f-1x1x96x42xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 83 83 96 -filter-shape 1 1 96 42 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 13",
         "name": "TensorFlow-conv2d_i-1x83x83x168xf32-f-1x1x168x84xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 83 83 168 -filter-shape 1 1 168 84 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 14, 15, 26, 27, 28, 29, 30, 31, 32, 33",
         "name": "TensorFlow-conv2d_i-1x42x42x84xf32-f-1x1x84x84xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 84 -filter-shape 1 1 84 84 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 16, 17",
         "name": "TensorFlow-conv2d_i-1x42x42x168xf32-f-1x1x168x84xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 168 -filter-shape 1 1 168 84 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 18, 19, 20, 21, 22, 23, 35, 36, 37, 38, 40, 41, 42, 43, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 83, 84, 85, 86, 88, 89, 90, 91, 108, 109, 110, 111, 112, 113",
         "name": "TensorFlow-conv2d_i-1x42x42x168xf32-f-1x1x168x168xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 168 -filter-shape 1 1 168 168 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 24, 25",
         "name": "TensorFlow-conv2d_i-1x83x83x96xf32-f-1x1x96x42xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 83 83 96 -filter-shape 1 1 96 42 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 34, 51",
         "name": "TensorFlow-conv2d_i-1x42x42x336xf32-f-1x1x336x168xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 336 -filter-shape 1 1 336 168 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 39, 44, 58, 63, 68, 75, 82, 87, 107",
         "name": "TensorFlow-conv2d_i-1x42x42x1008xf32-f-1x1x1008x168xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 1008 -filter-shape 1 1 1008 168 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 92, 114",
         "name": "TensorFlow-conv2d_i-1x42x42x1008xf32-f-1x1x1008x336xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 42 42 1008 -filter-shape 1 1 1008 336 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 93, 94, 95, 96, 97, 98, 101, 102, 103, 104, 105, 106, 115, 116, 117, 118, 120, 121, 122, 123, 125, 126, 127, 128, 130, 131, 132, 133, 134, 135, 137, 138, 139, 140, 141, 142, 144, 145, 146, 147, 149, 150, 151, 152, 154, 155, 156, 157, 158, 159, 161, 162, 163, 164, 165, 166, 168, 169, 170, 171, 173, 174, 175, 176, 193, 194, 195, 196, 197, 198",
         "name": "TensorFlow-conv2d_i-1x21x21x336xf32-f-1x1x336x336xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 21 21 336 -filter-shape 1 1 336 336 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 99, 100",
         "name": "TensorFlow-conv2d_i-1x21x21x1008xf32-f-1x1x1008x168xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 21 21 1008 -filter-shape 1 1 1008 168 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 119, 136",
         "name": "TensorFlow-conv2d_i-1x21x21x1344xf32-f-1x1x1344x336xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 21 21 1344 -filter-shape 1 1 1344 336 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 124, 129, 143, 148, 153, 160, 167, 172, 192",
         "name": "TensorFlow-conv2d_i-1x21x21x2016xf32-f-1x1x2016x336xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 21 21 2016 -filter-shape 1 1 2016 336 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 177, 199",
         "name": "TensorFlow-conv2d_i-1x21x21x2016xf32-f-1x1x2016x672xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 21 21 2016 -filter-shape 1 1 2016 672 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 178, 179, 180, 181, 182, 183, 186, 187, 188, 189, 190, 191, 200, 201, 202, 203, 205, 206, 207, 208, 210, 211, 212, 213, 215, 216, 217, 218, 219, 220, 222, 223, 224, 225, 226, 227, 229, 230, 231, 232, 234, 235, 236, 237, 239, 240, 241, 242, 243, 244, 246, 247, 248, 249, 250, 251, 253, 254, 255, 256, 258, 259, 260, 261, 263, 264, 265, 266, 267, 268",
         "name": "TensorFlow-conv2d_i-1x11x11x672xf32-f-1x1x672x672xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 11 11 672 -filter-shape 1 1 672 672 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 184, 185",
         "name": "TensorFlow-conv2d_i-1x11x11x2016xf32-f-1x1x2016x336xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 11 11 2016 -filter-shape 1 1 2016 336 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 204, 221",
         "name": "TensorFlow-conv2d_i-1x11x11x2688xf32-f-1x1x2688x672xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 11 11 2688 -filter-shape 1 1 2688 672 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow NASNetLarge Convolution - 209, 214, 228, 233, 238, 245, 252, 257, 262",
         "name": "TensorFlow-conv2d_i-1x11x11x4032xf32-f-1x1x4032x672xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 11 11 4032 -filter-shape 1 1 4032 672 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x230x230x3xf32-f-7x7x3x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 230 230 3 -filter-shape 7 7 3 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x56x56x64xf32-f-1x1x64x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 64 -filter-shape 1 1 64 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 3",
         "name": "TensorFlow-conv2d_i-1x56x56x64xf32-f-1x1x64x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 64 -filter-shape 1 1 64 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 4, 6, 8",
         "name": "TensorFlow-conv2d_i-1x56x56x128xf32-f-1x1x128x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 128 -filter-shape 1 1 128 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 5, 7",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-1x1x256x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 1 1 256 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 9",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-1x1x256x512xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 1 1 256 512 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 10",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-1x1x256x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 1 1 256 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 11, 13, 15, 17",
         "name": "TensorFlow-conv2d_i-1x28x28x256xf32-f-1x1x256x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 256 -filter-shape 1 1 256 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 12, 14, 16",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-1x1x512x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 1 1 512 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 18",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-1x1x512x1024xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 1 1 512 1024 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 19",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-1x1x512x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 1 1 512 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 20, 22, 24, 26, 28, 30",
         "name": "TensorFlow-conv2d_i-1x14x14x512xf32-f-1x1x512x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 512 -filter-shape 1 1 512 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 21, 23, 25, 27, 29",
         "name": "TensorFlow-conv2d_i-1x14x14x1024xf32-f-1x1x1024x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 1024 -filter-shape 1 1 1024 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 31",
         "name": "TensorFlow-conv2d_i-1x14x14x1024xf32-f-1x1x1024x2048xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 1024 -filter-shape 1 1 1024 2048 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 32",
         "name": "TensorFlow-conv2d_i-1x14x14x1024xf32-f-1x1x1024x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 1024 -filter-shape 1 1 1024 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 33, 35, 37",
         "name": "TensorFlow-conv2d_i-1x7x7x1024xf32-f-1x1x1024x2048xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 1024 -filter-shape 1 1 1024 2048 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNeXt50 Convolution - 34, 36",
         "name": "TensorFlow-conv2d_i-1x7x7x2048xf32-f-1x1x2048x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 2048 -filter-shape 1 1 2048 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x230x230x3xf32-f-7x7x3x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 230 230 3 -filter-shape 7 7 3 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 2, 5, 8",
         "name": "TensorFlow-conv2d_i-1x56x56x64xf32-f-1x1x64x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 64 -filter-shape 1 1 64 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 3",
         "name": "TensorFlow-conv2d_i-1x56x56x64xf32-f-1x1x64x64xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 64 -filter-shape 1 1 64 64 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 4, 7",
         "name": "TensorFlow-conv2d_i-1x58x58x64xf32-f-3x3x64x64xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 58 58 64 -filter-shape 3 3 64 64 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 6, 9",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-1x1x256x64xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 1 1 256 64 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 10",
         "name": "TensorFlow-conv2d_i-1x58x58x64xf32-f-3x3x64x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 58 58 64 -filter-shape 3 3 64 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 11",
         "name": "TensorFlow-conv2d_i-1x28x28x64xf32-f-1x1x64x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 64 -filter-shape 1 1 64 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 12",
         "name": "TensorFlow-conv2d_i-1x28x28x256xf32-f-1x1x256x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 256 -filter-shape 1 1 256 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 13",
         "name": "TensorFlow-conv2d_i-1x28x28x256xf32-f-1x1x256x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 256 -filter-shape 1 1 256 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 14, 17, 20",
         "name": "TensorFlow-conv2d_i-1x30x30x128xf32-f-3x3x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 30 30 128 -filter-shape 3 3 128 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 15, 18, 21",
         "name": "TensorFlow-conv2d_i-1x28x28x128xf32-f-1x1x128x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 128 -filter-shape 1 1 128 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 16, 19, 22",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-1x1x512x128xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 1 1 512 128 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 23",
         "name": "TensorFlow-conv2d_i-1x30x30x128xf32-f-3x3x128x128xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 30 30 128 -filter-shape 3 3 128 128 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 24",
         "name": "TensorFlow-conv2d_i-1x14x14x128xf32-f-1x1x128x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 128 -filter-shape 1 1 128 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 25",
         "name": "TensorFlow-conv2d_i-1x14x14x512xf32-f-1x1x512x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 512 -filter-shape 1 1 512 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 26",
         "name": "TensorFlow-conv2d_i-1x14x14x512xf32-f-1x1x512x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 512 -filter-shape 1 1 512 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 27, 30, 33, 36, 39",
         "name": "TensorFlow-conv2d_i-1x16x16x256xf32-f-3x3x256x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 16 16 256 -filter-shape 3 3 256 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 28, 31, 34, 37, 40",
         "name": "TensorFlow-conv2d_i-1x14x14x256xf32-f-1x1x256x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 256 -filter-shape 1 1 256 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 29, 32, 35, 38, 41",
         "name": "TensorFlow-conv2d_i-1x14x14x1024xf32-f-1x1x1024x256xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 1024 -filter-shape 1 1 1024 256 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 42",
         "name": "TensorFlow-conv2d_i-1x16x16x256xf32-f-3x3x256x256xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 16 16 256 -filter-shape 3 3 256 256 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 43",
         "name": "TensorFlow-conv2d_i-1x7x7x256xf32-f-1x1x256x1024xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 256 -filter-shape 1 1 256 1024 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 44",
         "name": "TensorFlow-conv2d_i-1x7x7x1024xf32-f-1x1x1024x2048xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 1024 -filter-shape 1 1 1024 2048 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 45",
         "name": "TensorFlow-conv2d_i-1x7x7x1024xf32-f-1x1x1024x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 1024 -filter-shape 1 1 1024 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 46, 49, 52",
         "name": "TensorFlow-conv2d_i-1x9x9x512xf32-f-3x3x512x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 9 9 512 -filter-shape 3 3 512 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 47, 50, 53",
         "name": "TensorFlow-conv2d_i-1x7x7x512xf32-f-1x1x512x2048xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 512 -filter-shape 1 1 512 2048 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow ResNet50V2 Convolution - 48, 51",
         "name": "TensorFlow-conv2d_i-1x7x7x2048xf32-f-1x1x2048x512xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 7 7 2048 -filter-shape 1 1 2048 512 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Convolution - 1",
         "name": "TensorFlow-conv2d_i-8x4094x510x10xf32-f-4x4x10x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 4094 510 10 -filter-shape 4 4 10 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Convolution - 2",
         "name": "TensorFlow-conv2d_i-8x2046x254x64xf32-f-4x4x64x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 2046 254 64 -filter-shape 4 4 64 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Convolution - 3",
         "name": "TensorFlow-conv2d_i-8x1022x126x64xf32-f-4x4x64x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 1022 126 64 -filter-shape 4 4 64 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Convolution - 4",
         "name": "TensorFlow-conv2d_i-8x510x62x64xf32-f-4x4x64x64xf32-s-1x2x2x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 510 62 64 -filter-shape 4 4 64 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Convolution - 5",
         "name": "TensorFlow-conv2d_i-8x4034x450x2xf32-f-1x1x2x1xf32-s-1x1x1x1-d-1x1x1x1-p-VALID-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 8 4034 450 2 -filter-shape 1 1 2 1 -strides 1 1 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 1",
         "name": "TensorFlow-conv2d_i-1x224x224x3xf32-f-3x3x3x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 224 224 3 -filter-shape 3 3 3 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 2",
         "name": "TensorFlow-conv2d_i-1x224x224x64xf32-f-3x3x64x64xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 224 224 64 -filter-shape 3 3 64 64 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 3",
         "name": "TensorFlow-conv2d_i-1x112x112x64xf32-f-3x3x64x128xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 112 112 64 -filter-shape 3 3 64 128 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 4",
         "name": "TensorFlow-conv2d_i-1x112x112x128xf32-f-3x3x128x128xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 112 112 128 -filter-shape 3 3 128 128 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 5",
         "name": "TensorFlow-conv2d_i-1x56x56x128xf32-f-3x3x128x256xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 128 -filter-shape 3 3 128 256 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 6, 7, 8",
         "name": "TensorFlow-conv2d_i-1x56x56x256xf32-f-3x3x256x256xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 56 56 256 -filter-shape 3 3 256 256 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 9",
         "name": "TensorFlow-conv2d_i-1x28x28x256xf32-f-3x3x256x512xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 256 -filter-shape 3 3 256 512 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 10, 11, 12",
         "name": "TensorFlow-conv2d_i-1x28x28x512xf32-f-3x3x512x512xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 28 28 512 -filter-shape 3 3 512 512 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow VGG19 Convolution - 13, 14, 15, 16",
         "name": "TensorFlow-conv2d_i-1x14x14x512xf32-f-3x3x512x512xf32-s-1x1x1x1-d-1x1x1x1-p-SAME-df-NHWC",
-        "path": "examples/tensorflow/single_ops/conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 14 14 512 -filter-shape 3 3 512 512 -strides 1 1 -dilations 1 1 -padding SAME -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Transpose Conv 1",
         "name": "TensorFlow-customNet_d1",
-        "path": "examples/tensorflow/single_ops/transpose_conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 254 30 64 -filter-shape 4 4 64 64 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Transpose Conv 2",
         "name": "TensorFlow-customNet_d2",
-        "path": "examples/tensorflow/single_ops/transpose_conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 506 58 128 -filter-shape 4 4 64 128 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Transpose Conv 3",
         "name": "TensorFlow-customNet_d3",
-        "path": "examples/tensorflow/single_ops/transpose_conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 1010 114 128 -filter-shape 4 4 64 128 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     },
     {
         "description": "TensorFlow customNet Transpose Conv 4",
         "name": "TensorFlow-customNet_d4",
-        "path": "examples/tensorflow/single_ops/transpose_conv2d.py",
-        "frontend": "tensorflow",
-        "cpu-num-iters": "",
         "flags": "-input-shape 1 2018 226 128 -filter-shape 4 4 2 128 -strides 2 2 -dilations 1 1 -padding VALID -data-format NHWC"
     }
 ]
